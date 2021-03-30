@@ -22,6 +22,7 @@ body{
     font-size: 1rem;
     border-radius: 50px;
     color: black;
+    background-color: cornsilk;
 }
 
 .button:active{
@@ -33,13 +34,14 @@ body{
     grid-column: span 2;
 }
 .spantwo col{
-    background-color: blueviolet;
+    background-color: rgb(190, 136, 240);
 }
 .col{
-    background-color: blueviolet;
+    background-color: rgb(190, 136, 240);
 }
  form{
     grid-column: 1 / -1;
+    background-color: #000;
 }
 .textview{
     outline:none;
@@ -54,5 +56,5 @@ body{
     padding: 15px;
     word-break: break-all;
     margin-bottom:5px ;
-    color: rgb(245, 237, 237);   
+    color: rgba(223, 219, 219);   
 }
