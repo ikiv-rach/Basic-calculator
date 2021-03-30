@@ -6,22 +6,22 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #09a;
+    background-color: #000;
 }
 .calculator-main{
     display: grid;
     align-content: center;
     justify-content: center;
-    grid-template-columns: repeat(4, 100px);
-    min-height: 120vh;
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    grid-template-columns: repeat(4, 50px);
+    min-height: 100vh;
+    grid-template-rows: minmax(50px, auto) repeat(5, 50px);
 }
 
 .button{
     cursor:pointer;
-    font-size: 2rem;
-    border:1px solid rgb(124, 122, 122);
-    background-color: burlywood;
+    font-size: 1rem;
+    border-radius: 50px;
+    color: black;
 }
 
 .button:active{
@@ -29,31 +29,30 @@ body{
     top:3px;
 }
 
-.button:hover{
-    transform: scale(1.1);
-}
-
 .span-two{
     grid-column: span 2;
 }
-
+.spantwo col{
+    background-color: blueviolet;
+}
+.col{
+    background-color: blueviolet;
+}
  form{
     grid-column: 1 / -1;
-    background-color: #000;
-    border-radius: 0 5px;
 }
-
 .textview{
     outline:none;
-    width: 24rem;
+    width: 12.5rem;
+    border-radius: 5px 5px 0 0;
     height: 5rem;
     background-color: rgb(124, 122, 122);
-    font-size: 1.5rem;
+    font-size: 1rem;
     flex-direction: column;
     justify-content: space-around;
     word-wrap: break-word;
     padding: 15px;
     word-break: break-all;
-    margin:5px ;
-    color: black;   
+    margin-bottom:5px ;
+    color: rgb(245, 237, 237);   
 }
